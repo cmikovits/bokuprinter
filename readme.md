@@ -1,8 +1,9 @@
-# Step 1:
+
+### Step 1:
 
 Download the driver/ppd from https://www.konicaminolta.at/de/business-solutions/kundensupport/download-center.html
 
-# Step 2:
+### Step 2:
 
 Add the printer:
 
@@ -10,7 +11,7 @@ Add the printer:
 - add device: https://printer.boku.ac.at/ipp/bokuprint-mono
 - change settings to right paper size and to greyscale
 
-# Step 3:
+### Step 3:
 
 Open cups and edit printers.conf, change line:
 
@@ -19,6 +20,12 @@ Open cups and edit printers.conf, change line:
 > https://username:password@printer.boku.ac.at/ipp/bokuprint-mono
 ```
 
-# Step 4
+and add line
+
+```
+AuthInfoRequired username,password
+```
+
+### Step 4
 
 Do the same for bokuprint-color
