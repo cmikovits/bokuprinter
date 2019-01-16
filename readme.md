@@ -26,6 +26,13 @@ and add line
 AuthInfoRequired username,password
 ```
 
-### Step 4
+### Step 4 (optional)
 
 Do the same for bokuprint-color
+
+### Step 5 (optional)
+
+Set Default Options for the printers (only guessed of course):
+
+- Paper Source Unit: PC-215
+- Staple Unit: FS-536
